@@ -2,7 +2,6 @@
 import os
 import requests
 
-load_dotenv()
 api_key = os.environ.get("api_key")
 account_sid = os.environ.get("account_sid")
 auth_token = os.environ.get("auth_token")
