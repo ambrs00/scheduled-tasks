@@ -33,7 +33,7 @@ while rain:
     for element in weather_data["list"]:
         forecast_code.append(element["weather"][0]["id"])
     for n in forecast_code:
-        if n < 1000:
+        if n < 700:
             message = client.messages.create(
                 body="It will rain today",
                 from_="+15706336955",
